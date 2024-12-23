@@ -1,4 +1,19 @@
-.App {
+.app {
   font-family: sans-serif;
   text-align: center;
 }
+
+h1{
+  color: red;
+}
+
+button{
+  background-color: #ffffff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1;
+  cursor: pointer;
+  width: 20%;
+}
+
+
