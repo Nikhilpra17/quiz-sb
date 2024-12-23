@@ -1,3 +1,5 @@
+![My GIF](./Sc.gif)
+
 # Frontend Task: Multiple Choice Quizzes
 
 👋 Hi there!
