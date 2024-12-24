@@ -51,6 +51,19 @@ const QuizQuestion = ({
           );
         })}
       </div>
+
+      {selectedAnswer && (
+        <div
+          style={{
+            margin: "20px 0",
+            fontStyle: "italic",
+            textAlign: "center",
+          }}
+        >
+          {isCorrect ? "Correct!..." : "Incorrect!..."}
+        </div>
+      )}
+
       {selectedAnswer && (
         <button onClick={handleNextQuestion}>
           {currentQuestionIndex + 1 < totalQuestions ? "Next" : "Finish"}
